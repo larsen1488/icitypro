@@ -45,7 +45,7 @@ export default function PhoneForm() {
           <h2 className="text-xl font-semibold text-center">Укажите адрес замены</h2>
 
           <label htmlFor="fio" className="text-sm font-medium text-gray-600 mb-1">
-            Укажите имя получателя
+            Имя получателя
           </label>
           <input
             type="text"
@@ -57,7 +57,7 @@ export default function PhoneForm() {
           />
           
           <label htmlFor="fio" className="text-sm font-medium text-gray-600 mb-1">
-            Укажите номер телефона получателя
+            Номер телефона получателя
           </label>
           <input
             type="tel"
@@ -69,19 +69,7 @@ export default function PhoneForm() {
           />
 
           <label htmlFor="fio" className="text-sm font-medium text-gray-600 mb-1">
-            Укажите город в котором нужно провести замену
-          </label>
-          <input
-            type="text"
-            value={city}
-            onChange={(e) => setCity(e.target.value)}
-            placeholder="Город"
-            required
-            className="w-full border rounded-md p-3 focus:ring-2 focus:ring-blue-500 outline-none"
-          />
-
-          <label htmlFor="fio" className="text-sm font-medium text-gray-600 mb-1">
-            Укажите адрес по которой нужно провести замену
+            Адрес по которой нужно провести замену
           </label>
           <input
             type="text"
