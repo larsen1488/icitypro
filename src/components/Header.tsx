@@ -27,12 +27,12 @@ export default function Header() {
           </a>
         </div>
         <div className="flex items-center gap-2">
-          <a href="#">
+          <a href="https://api.whatsapp.com/send/?phone=%2B79199883278&text&type=phone_number&app_absent=0">
             <img src="/Whatsapp.png" alt="contact" className="w-4 h-4" />
           </a>
           <Phone className="w-4 h-4 text-gray-500" />
-          <a href="tel:+74950238842" className="hover:text-blue-500">
-            +7 (495) 023-88-42
+          <a href="tel:+79199883278" className="hover:text-blue-500">
+            +7 (919) 988-32-78
           </a>
         </div>
       </nav>

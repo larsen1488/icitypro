@@ -42,8 +42,11 @@ export default function PhoneForm() {
     <section id="form" className="flex justify-center items-center min-h-screen px-4">
       <div className="bg-white shadow-xl rounded-xl p-8 w-full max-w-md">
         <form onSubmit={handleSubmit} className="space-y-4">
-          <h2 className="text-xl font-semibold text-center">Введите ваши данные</h2>
+          <h2 className="text-xl font-semibold text-center">Укажите адрес замены</h2>
 
+          <label htmlFor="fio" className="text-sm font-medium text-gray-600 mb-1">
+            Укажите имя получателя
+          </label>
           <input
             type="text"
             value={fio}
@@ -52,7 +55,10 @@ export default function PhoneForm() {
             required
             className="w-full border rounded-md p-3 focus:ring-2 focus:ring-blue-500 outline-none"
           />
-
+          
+          <label htmlFor="fio" className="text-sm font-medium text-gray-600 mb-1">
+            Укажите номер телефона получателя
+          </label>
           <input
             type="tel"
             value={phone}
@@ -62,6 +68,9 @@ export default function PhoneForm() {
             className="w-full border rounded-md p-3 focus:ring-2 focus:ring-blue-500 outline-none"
           />
 
+          <label htmlFor="fio" className="text-sm font-medium text-gray-600 mb-1">
+            Укажите город в котором нужно провести замену
+          </label>
           <input
             type="text"
             value={city}
@@ -71,6 +80,9 @@ export default function PhoneForm() {
             className="w-full border rounded-md p-3 focus:ring-2 focus:ring-blue-500 outline-none"
           />
 
+          <label htmlFor="fio" className="text-sm font-medium text-gray-600 mb-1">
+            Укажите адрес по которой нужно провести замену
+          </label>
           <input
             type="text"
             value={street}
